@@ -9,10 +9,10 @@ var app = express();
 app.use(express.static('public'));
 
 var client = new Twitter({
-  consumer_key: '6NEEHw89UHPicD8AxrkcGG1h4',
-  consumer_secret: 'TKRDjGqt8fj8P0mhESLlklLAjYTwZPyWzZ3u2BN0P9mVhBtOe4',
-  access_token_key: '952431139741876224-O1XXi9YwADUm7AiGUxqbGrZ4aJfzHby',
-  access_token_secret: 'kUsQmaUx7uLS0CLFkW1ZDbtXYcCHRQw7mlWf9RLRgV92y'
+  consumer_key: ,
+  consumer_secret: ,
+  access_token_key: ,
+  access_token_secret: 
 });
 
 app.get('/predictions/:coin', async (req, res) => {
