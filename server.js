@@ -70,7 +70,7 @@ app.get('/predictions/:coin', async (req, res) => {
         hostname : 'westcentralus.api.cognitive.microsoft.com',
         path : '/text/analytics/v2.0/sentiment',
         headers : {
-            'Ocp-Apim-Subscription-Key' : '8fc477bb242e429ab9b197bb838553f5',
+            'Ocp-Apim-Subscription-Key' : '',
         }
     };
 
